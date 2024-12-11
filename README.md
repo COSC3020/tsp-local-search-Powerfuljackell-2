@@ -1,5 +1,14 @@
 # Traveling Salesperson Problem -- Local Search
 
+Took a look at https://slowandsteadybrain.medium.com/traveling-salesman-problem-ce78187cf1f3
+https://www.geeksforgeeks.org/travelling-salesman-problem-using-dynamic-programming/
+^for verifying I was performing the correct operations and to make sure my internal test code was operating correctly
+https://en.wikipedia.org/wiki/2-opt
+^Really helped in understanding how best to approach 2opts
+https://www.geeksforgeeks.org/how-to-use-goto-in-javascript/
+https://www.geeksforgeeks.org/how-to-shuffle-an-array-using-javascript/
+^for help with generating the input path
+
 This exercise is about the Traveling Salesperson Problem I mentioned in the
 lecture on NP-hard problems -- given a set of cities, determine the length of
 the shortest tour that visits all of them. We can get from any city to any other
@@ -50,3 +59,7 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+Given that it iterates over each value, swapping as it goings, specifically the do-while loop, I believe that my time complexity would be $\Theta(n^3)$ depnding on input and how quickly if(current_distance < best_distance) fails
+I will note, I wish that I could have utilized a goto as that would stop the need to check improvementMade twice per loop. In regards to memory complexity worst case would be $\Theta(n^2 + n)$ or $\Theta(n^2)$ as you need to store the values of the distance matrix and the path contained within. Thankfully javascript has built in garbage collection to prevent any leaks from occuring.
+
+
