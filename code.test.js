@@ -25,4 +25,4 @@ dm = [[0,3,4,2,7],
       [4,4,0,5,8],
       [2,6,5,0,6],
       [7,3,8,6,0]];
-assert(tsp_ls(dm) >= 13);
+assert(tsp_ls(dm) >= 13); //why is this based on finding a value that is greater than or equal too 13? Answer: Due to the input being randomized, sometimes the criteria of  current_distance < best_distance will not always return the best value
