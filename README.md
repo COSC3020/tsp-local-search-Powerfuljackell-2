@@ -3,12 +3,19 @@
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice." 
 
 Took a look at https://slowandsteadybrain.medium.com/traveling-salesman-problem-ce78187cf1f3
+
 https://www.geeksforgeeks.org/travelling-salesman-problem-using-dynamic-programming/
+
 ^for verifying I was performing the correct operations and to make sure my internal test code was operating correctly
+
 https://en.wikipedia.org/wiki/2-opt
+
 ^Really helped in understanding how best to approach 2opts
+
 https://www.geeksforgeeks.org/how-to-use-goto-in-javascript/
+
 https://www.geeksforgeeks.org/how-to-shuffle-an-array-using-javascript/
+
 ^for help with generating the input path
 
 This exercise is about the Traveling Salesperson Problem I mentioned in the
